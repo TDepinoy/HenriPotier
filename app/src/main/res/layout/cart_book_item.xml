@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_text"
+    >
+
+    <ImageView
+        android:id="@+id/book_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_text"
+        android:src="@android:drawable/alert_dark_frame"
+        android:contentDescription="@string/cover_description"
+        />
+
+    <TextView
+        tools:text="Titre"
+        android:id="@+id/book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/book_cover"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_text"
+        />
+
+    <TextView
+        tools:text="20,00"
+        android:id="@+id/book_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_text"
+        android:layout_below="@id/book_title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/book_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_button"
+        android:layout_alignBottom="@id/book_cover"
+        android:layout_toEndOf="@id/book_cover"
+        android:text="@string/cart_remove"
+        android:textSize="@dimen/text_size_small"
+        />
+
+    <Spinner
+        android:id="@+id/book_set_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_button"
+        android:layout_alignBottom="@id/book_remove"
+        android:layout_toEndOf="@id/book_remove"
+        android:text="@string/cart_add"
+        android:textSize="@dimen/text_size_small"
+        />
+
+
+</RelativeLayout>

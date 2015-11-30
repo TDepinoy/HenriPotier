@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Henri Potier</string>
+    <string name="books_title">Library</string>
+    <string name="network_error">Fail to reach network</string>
+    <string name="cover_description">Cover image</string>
+    <string name="action_cart">Cart</string>
+    <string name="cart_title">Cart</string>
+    <string name="cart_empty">Your items is currently empty</string>
+    <string name="cart_empty_button">Start buying !</string>
+    <string name="cart_add_success">Item successfully added to cart !</string>
+    <string name="cart_full">Your cart contains %1$d articles</string>
+    <string name="cart_total">Total: %1$.2f €</string>
+    <string name="cart_add">Add to cart</string>
+    <string name="cart_original_total">Total without offer: %1$.2f €</string>
+    <string name="cart_remove">Remove from cart</string>
+</resources>

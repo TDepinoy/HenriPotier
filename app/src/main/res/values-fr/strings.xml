@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Henri Potier</string>
+    <string name="books_title">Bibliothèque</string>
+    <string name="network_error">Erreur réseau</string>
+    <string name="cover_description">Image de couverture</string>
+    <string name="action_cart">Panier</string>
+    <string name="cart_title">Panier</string>
+    <string name="cart_empty">Votre panier est vide</string>
+    <string name="cart_empty_button">Continuer les achats !</string>
+    <string name="cart_add_success">Article ajouté au panier !</string>
+    <string name="cart_full">Votre panier contient %1$d article(s)</string>
+    <string name="cart_total">Total: %1$.2f €</string>
+    <string name="cart_add">Ajouter au panier</string>
+    <string name="cart_original_total">Total avant remise: %1$.2f €</string>
+    <string name="cart_remove">Supprimer du panier</string>
+</resources>
